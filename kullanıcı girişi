@@ -57,21 +57,27 @@
                 </a>
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-2 text-secondary">Anasayfa</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">Öğrendiklerim</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">Öğreneceklerim</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white"> Tekrar Etmem Gerekenler</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Anasayfa</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Okuduklarım</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">İzlediklerim</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white"> Dinlediklerim</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white"> Seyrettiklerim</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white"> Tavsiye</a></li>
                     <li><a href="#" class="nav-link px-2 text-white">Ben Kimim?</a></li>
                 </ul>
 
                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
                     <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Ara..." aria-label="Search">
                 </form>
-                <div class="text-end" id="header_sag">
-                    <div id="dv_btn">
-                        <button type="button" class="btn btn-outline-light me-2" a href>Giriş</button> </a>
-                        <a htef="kayit2.html"><button type="button" class="btn btn-warning">Kaydol</button> </a>
-                    </div>
+
+                <div class="text-end" id="heder_sag">
+                    <div id="dv_btn "
+                        <a href="giris2.html"><button type="button" class="btn btn-outline-light me-2">Giriş</button> </a>
+                        <a href="formsayfasi.html" <button type="button" class="btn btn-warning">Kaydol</button> </a>
+                   </div>
+                </div>
+                <div class="text-end">
+                    <button id="logout_Btn" type="button" class="btn btn-danger" style="display:none" onclick="logout()">Çıkış</button>
                 </div>
             </div>
         </div>
